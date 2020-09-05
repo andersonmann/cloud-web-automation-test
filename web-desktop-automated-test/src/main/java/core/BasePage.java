@@ -78,7 +78,7 @@ public class BasePage extends BrowserFactory {
 	public String getValue(By by) {
 		try {
 //			waitForElement(by);
-			log.getTest().log(Status.INFO, "geting text of the locator: " + by);
+			log.getTest().log(Status.INFO, "getting text of the locator: " + by);
 			return driver.findElement(by).getText();
 		} catch (Exception e) {
 			throw new NoSuchElementException(ELEMENT_NOT_FOUND + e.getMessage());
