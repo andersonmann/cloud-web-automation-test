@@ -3,19 +3,19 @@
  */
 package core;
 
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URISyntaxException;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
-import util.ExtentTestManager;
 
 /**
  * @author andersonmann
  *
  */
-public class BaseTest extends DriverFactory {
-	protected ExtentTestManager log = new ExtentTestManager();
-//	protected LoginPage login = new LoginPage();
+public class BaseTest extends BrowserFactory {
 
 	@BeforeMethod(alwaysRun = true)
 	@Parameters({ "browser", "browser_version", "os", "os_version", "resolution", "project", "build" })
@@ -25,7 +25,7 @@ public class BaseTest extends DriverFactory {
 	}
 
 	@AfterMethod(alwaysRun = true)
-	public void tearDown() {
+	public void tearDown() throws UnsupportedEncodingException, URISyntaxException, IOException {
 		if (driver != null) {
 			driver.quit();
 		}

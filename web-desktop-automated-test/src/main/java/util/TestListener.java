@@ -12,13 +12,13 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
 
-import core.DriverFactory;
+import core.BrowserFactory;
 
 /**
  * @author anderson.mann
  *
  */
-public class TestListener extends DriverFactory implements ITestListener {
+public class TestListener extends BrowserFactory implements ITestListener {
 	private ExtentTestManager log = new ExtentTestManager();
 
 	public void onStart(ITestContext context) {

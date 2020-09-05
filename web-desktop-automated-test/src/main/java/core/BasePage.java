@@ -14,7 +14,7 @@ import util.ExtentTestManager;
  * @author andersonmann
  *
  */
-public class BasePage extends DriverFactory {
+public class BasePage extends BrowserFactory {
 	protected ExtentTestManager log = new ExtentTestManager();
 	private static final String ELEMENT_NOT_FOUND = "Element not found: ";
 
