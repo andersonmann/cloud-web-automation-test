@@ -5,7 +5,7 @@
 		<listener class-name="util.TestListener" />
 	</listeners>
 
-<!-- 	<test name="Windows 10 - Chrome 84">
+	<test name="Windows 10 - Chrome 84">
 		<parameter name="browser" value="Chrome" />
 		<parameter name="browser_version" value="84" />
 		<parameter name="os" value="Windows" />
@@ -14,11 +14,11 @@
 		<parameter name="project" value="project 1" />
 		<parameter name="build" value="build 2" />
 		<classes>
-			<class name="test.HomeTest" />
+			<class name="test.LoginTest" />
 		</classes>
-	</test> -->
+	</test>
 	
-	<test name="Windows 10 - Firefox 80">
+	<!-- <test name="Windows 10 - Firefox 80">
 		<parameter name="browser" value="Firefox" />
 		<parameter name="browser_version" value="80" />
 		<parameter name="os" value="Windows" />
@@ -42,5 +42,5 @@
 		<classes>
 			<class name="test.HomeTest" />
 		</classes>
-	</test>
+	</test> -->
 </suite>
