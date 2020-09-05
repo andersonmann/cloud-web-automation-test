@@ -3,19 +3,21 @@
  */
 package core;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URISyntaxException;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+
+import com.aventstack.extentreports.Status;
+
+import util.ExtentTestManager;
 
 /**
  * @author andersonmann
  *
  */
 public class BaseTest extends BrowserFactory {
+	protected ExtentTestManager log = new ExtentTestManager();
+	private static String validatingMessage = "Validating messages";
 
 	@BeforeMethod(alwaysRun = true)
 	@Parameters({ "browser", "browser_version", "os", "os_version", "resolution", "project", "build" })
@@ -25,10 +27,14 @@ public class BaseTest extends BrowserFactory {
 	}
 
 	@AfterMethod(alwaysRun = true)
-	public void tearDown() throws UnsupportedEncodingException, URISyntaxException, IOException {
+	public void tearDown() {
 		if (driver != null) {
 			driver.quit();
 		}
 	}
 
+	public void loging(String message) {
+		log.getTest().log(Status.INFO, validatingMessage);
+		log.getTest().log(Status.INFO, message);
+	}
 }
