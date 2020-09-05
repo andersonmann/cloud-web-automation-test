@@ -31,26 +31,25 @@ public class DriverFactory {
 	 */
 	public static void createDriver(String browser, String browser_version, String os, String os_version,
 			String resolution, String project, String build) {
-
-		DesiredCapabilities caps = new DesiredCapabilities();
-		caps.setCapability("browser", browser);
-		caps.setCapability("browser_version", browser_version);
-		caps.setCapability("os", os);
-		caps.setCapability("os_version", os_version);
-		caps.setCapability("resolution", resolution);
-		caps.setCapability("project", project);
-		caps.setCapability("build", build);
-		caps.setCapability("browserstack.debug", "true");
-		caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		try {
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setCapability("browser", browser);
+			caps.setCapability("browser_version", browser_version);
+			caps.setCapability("os", os);
+			caps.setCapability("os_version", os_version);
+			caps.setCapability("resolution", resolution);
+			caps.setCapability("project", project);
+			caps.setCapability("build", build);
+			caps.setCapability("browserstack.debug", "true");
+			caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			driver = new RemoteWebDriver(new URL(Constants.APPIUM_BS), caps);
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.get(url);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
-		driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get(url);
 	}
 }
