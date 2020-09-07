@@ -24,11 +24,11 @@ public class BasePage extends BrowserFactory {
 	 * @param By Type of locator used for search (Ex: id, name, xpath,cssSelector)
 	 * @param by the locator identifier
 	 */
-//	public void waitForElement(By by) {
-//		log.getTest().log(Status.INFO, "waiting presence of element: " + by);
-//		WebDriverWait wait = new WebDriverWait(driver, 15);
-//		wait.until(ExpectedConditions.elementToBeClickable(by));
-//	}
+	public void waitForElement(By by) {
+		log.getTest().log(Status.INFO, "waiting presence of element: " + by);
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.elementToBeClickable(by));
+	}
 
 	/**
 	 * Find an element and click
@@ -39,7 +39,6 @@ public class BasePage extends BrowserFactory {
 	 */
 	public void click(By by) {
 		try {
-//			waitForElement(by);
 			log.getTest().log(Status.INFO, "clicking at the element: " + by);
 			driver.findElement(by).click();
 		} catch (Exception e) {
@@ -57,7 +56,6 @@ public class BasePage extends BrowserFactory {
 	 */
 	public void write(By by, String text) {
 		try {
-//			waitForElement(by);
 			log.getTest().log(Status.INFO, "typing the text: " + text);
 			WebElement element = driver.findElement(by);
 			element.sendKeys(text);
@@ -77,7 +75,6 @@ public class BasePage extends BrowserFactory {
 
 	public String getValue(By by) {
 		try {
-//			waitForElement(by);
 			log.getTest().log(Status.INFO, "getting text of the locator: " + by);
 			return driver.findElement(by).getText();
 		} catch (Exception e) {
