@@ -48,4 +48,12 @@ public class CreateAccountPage extends BasePage {
 	public void clickCreateAccount() {
 		click(By.id("btn-signup"));
 	}
+
+	/**
+	 * @return the user's name displayed at app home
+	 */
+	public String getWelcome() {
+		waitForElement(By.xpath("//h1[@class='title is-3']"));
+		return driver.getCurrentUrl();
+	}
 }
