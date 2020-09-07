@@ -10,8 +10,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import core.BaseTest;
-import page.HomePage;
+import page.CreateAccountPage;
 import rules.CreateAccountRules;
+import util.MessagesAndLogs;
 
 /**
  * @author andersonmann
@@ -19,25 +20,25 @@ import rules.CreateAccountRules;
  */
 public class CreateAccountTest extends BaseTest {
 	CreateAccountRules account = new CreateAccountRules();
-	HomePage home = new HomePage();
-	private static String invalidRegistration = "Invalid registration, check if the email you entered is already registered.";
+	CreateAccountPage accountPage = new CreateAccountPage();
 
 	@DataProvider(name = "existingUserData")
 	public static Object[][] login01() {
-		return new Object[][] { { "anderson.civil@hotmail.com" } };
+		return new Object[][] { { "mr.robot@robot.com" } };
 	}
 
-//	@Test(priority = 0)
-//	public void createNewUser() {
-//		account.createNewAccountFlow();
-//	loging(empytFields);
-//	}
+	@Test(priority = 0)
+	public void createNewUser() {
+		account.createNewAccountFlow();
+		assertEquals(account.getHomeLogin(), MessagesAndLogs.homeLoginUrl);
+		loging(MessagesAndLogs.creatingAccountSuccessMessage);
+	}
 
 	@Test(dataProvider = "existingUserData", priority = 1)
 	public void existingUser(String email) {
 		account.existingUser(email);
-		assertEquals(account.getValue(By.id("error-message")), invalidRegistration);
-		loging(invalidRegistration);
+		assertEquals(account.getValue(By.id("error-message")), MessagesAndLogs.invalidRegistration);
+		loging(MessagesAndLogs.invalidRegistration);
 	}
 
 }
