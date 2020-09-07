@@ -48,9 +48,11 @@ public class CreateAccountRules extends BasePage {
 	}
 
 	/**
-	 * @return the user's name displayed at app home
+	 * This method wait loading page and return the current URL
+	 * 
+	 * @return
 	 */
-	public String getWelcome() {
-		return account.getValue(By.xpath("//h1[@class='title is-3']"));
+	public String getHomeLogin() {
+		return account.getWelcome();
 	}
 }
