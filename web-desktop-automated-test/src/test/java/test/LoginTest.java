@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import core.BaseTest;
 import page.LoginPage;
+import util.MessagesAndLogs;
 
 /**
  * @author andersonmann
@@ -18,58 +19,77 @@ import page.LoginPage;
  */
 public class LoginTest extends BaseTest {
 	LoginPage login = new LoginPage();
-	private static String invalidEmail = "Invalid email address";
-	private static String emptyPassword = "Insert your password";
-	private static String loginError = "Wrong email or password.";
-	private static String empytFields = "unauthorized access";
-	private static String loginSuccess = "login successfully";
 
 	@DataProvider(name = "requiredFields")
 	public static Object[][] login0() {
 		return new Object[][] { { "", "" } };
 	}
 
-	@DataProvider(name = "invalidEmail")
+	@DataProvider(name = "invalidEmail0")
 	public static Object[][] login1() {
 		return new Object[][] { { "dasdasdasdasd", "" } };
 	}
 
-	@DataProvider(name = "invalidPassword")
+	@DataProvider(name = "invalidEmail1")
 	public static Object[][] login2() {
-		return new Object[][] { { "anderson.civil@hotmail.com", "abcde12345" } };
+		return new Object[][] { { "mr.robot@", "Zenvia@2020" } };
+	}
+
+	@DataProvider(name = "invalidEmail2")
+	public static Object[][] login3() {
+		return new Object[][] { { "mr.robot@gmail", "Zenvia@2020" } };
+	}
+
+	@DataProvider(name = "invalidPassword")
+	public static Object[][] login4() {
+		return new Object[][] { { "mr.robot@robot.com", "abcde12345" } };
 	}
 
 	@DataProvider(name = "userAndPasswordValid")
-	public static Object[][] login03() {
-		return new Object[][] { { "anderson.civil@hotmail.com", "Zenvia@2020" } };
+	public static Object[][] login5() {
+		return new Object[][] { { "mr.robot@robots.com", "Zenvia@2020" } };
 	}
 
 	@Test(dataProvider = "requiredFields", priority = 0)
 	public void requiredFields(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), invalidEmail);
-		assertEquals(login.getValue(By.id("error-signin-password")), emptyPassword);
-		loging(empytFields);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
+		assertEquals(login.getValue(By.id("error-signin-password")), MessagesAndLogs.emptyPassword);
+		loging(MessagesAndLogs.empytFields);
 	}
 
-	@Test(dataProvider = "invalidEmail", priority = 1)
-	public void invalidEmail(String email, String password) {
+	@Test(dataProvider = "invalidEmail1", priority = 1)
+	public void invalidEmail1(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), invalidEmail);
-		loging(invalidEmail);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
+		loging(MessagesAndLogs.invalidEmail);
 	}
 
-	@Test(dataProvider = "invalidPassword", priority = 2)
+	@Test(dataProvider = "invalidEmail2", priority = 2)
+	public void invalidEmail2(String email, String password) {
+		login.login(email, password);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
+		loging(MessagesAndLogs.invalidEmail);
+	}
+
+	@Test(dataProvider = "invalidEmail2", priority = 3)
+	public void invalidEmail3(String email, String password) {
+		login.login(email, password);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
+		loging(MessagesAndLogs.invalidEmail);
+	}
+
+	@Test(dataProvider = "invalidPassword", priority = 4)
 	public void invalidPassword(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-message")), loginError);
-		loging(loginError);
+		assertEquals(login.getValue(By.id("error-message")), MessagesAndLogs.loginError);
+		loging(MessagesAndLogs.loginError);
 	}
 
-	@Test(dataProvider = "userAndPasswordValid", priority = 3)
+	@Test(dataProvider = "userAndPasswordValid", priority = 5)
 	public void loginSuccessfully(String email, String password) {
 		login.login(email, password);
 		assertEquals(login.getValue(By.xpath("//span[contains(text(),'Início')]")), "Início");
-		loging(loginSuccess);
+		loging(MessagesAndLogs.loginSuccess);
 	}
 }
