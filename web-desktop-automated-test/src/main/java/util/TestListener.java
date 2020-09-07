@@ -39,13 +39,13 @@ public class TestListener extends BrowserFactory implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("*** Executed " + result.getMethod().getMethodName() + " test successfully...");
 		log.getTest().log(Status.PASS, "Test passed");
-//		captureScreenShot(result, "pass");
+		captureScreenShot(result, "pass");
 	}
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
 		log.getTest().log(Status.FAIL, "Test Failed");
-//		captureScreenShot(result, "fail");
+		captureScreenShot(result, "fail");
 	}
 
 	public String getTestClassName(String testName) {
