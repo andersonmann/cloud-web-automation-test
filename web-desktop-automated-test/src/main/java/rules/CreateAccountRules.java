@@ -47,6 +47,11 @@ public class CreateAccountRules extends BasePage {
 		account.clickCreateAccount();
 	}
 
+	public void requiredFields() {
+		home.clickCreateAccount();
+		account.clickCreateAccount();
+	}
+
 	/**
 	 * This method wait loading page and return the current URL
 	 * 
