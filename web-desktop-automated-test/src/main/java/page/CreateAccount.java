@@ -14,7 +14,7 @@ import core.BasePage;
 public class CreateAccount extends BasePage {
 
 	/**
-	 * this method type the name of user
+	 * this method type user's name
 	 * 
 	 * @param name
 	 */
@@ -23,7 +23,7 @@ public class CreateAccount extends BasePage {
 	}
 
 	/**
-	 * this method type the email of user
+	 * this method type user's email
 	 * 
 	 * @param email
 	 */
@@ -32,7 +32,7 @@ public class CreateAccount extends BasePage {
 	}
 
 	/**
-	 * this method type the password of user
+	 * this method type user's password
 	 * 
 	 * @param password
 	 */
