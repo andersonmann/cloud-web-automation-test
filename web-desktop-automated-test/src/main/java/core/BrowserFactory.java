@@ -18,7 +18,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  */
 public class BrowserFactory {
 	protected static WebDriver driver;
-	private static String url = "http://app.zenvia.com.";
+	private static String url = "http://app.zenvia.com";
 
 	/**
 	 * @param browser
