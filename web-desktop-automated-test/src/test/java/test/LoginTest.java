@@ -53,37 +53,37 @@ public class LoginTest extends BaseTest {
 	@Test(dataProvider = "requiredFields", priority = 0)
 	public void requiredFields(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
-		assertEquals(login.getValue(By.id("error-signin-password")), MessagesAndLogs.emptyPassword);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.emailErrorMessage);
+		assertEquals(login.getValue(By.id("error-signin-password")), MessagesAndLogs.emptyPasswordErrorMessage);
 		loging(MessagesAndLogs.empytFields);
 	}
 
 	@Test(dataProvider = "invalidEmail1", priority = 1)
 	public void invalidEmail1(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
-		loging(MessagesAndLogs.invalidEmail);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.emailErrorMessage);
+		loging(MessagesAndLogs.emailErrorMessage);
 	}
 
 	@Test(dataProvider = "invalidEmail2", priority = 2)
 	public void invalidEmail2(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
-		loging(MessagesAndLogs.invalidEmail);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.emailErrorMessage);
+		loging(MessagesAndLogs.emailErrorMessage);
 	}
 
 	@Test(dataProvider = "invalidEmail2", priority = 3)
 	public void invalidEmail3(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.invalidEmail);
-		loging(MessagesAndLogs.invalidEmail);
+		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.emailErrorMessage);
+		loging(MessagesAndLogs.emailErrorMessage);
 	}
 
 	@Test(dataProvider = "invalidPassword", priority = 4)
 	public void invalidPassword(String email, String password) {
 		login.login(email, password);
-		assertEquals(login.getValue(By.id("error-message")), MessagesAndLogs.loginError);
-		loging(MessagesAndLogs.loginError);
+		assertEquals(login.getValue(By.id("error-message")), MessagesAndLogs.loginErrorErrorMessage);
+		loging(MessagesAndLogs.loginErrorErrorMessage);
 	}
 
 	@Test(dataProvider = "userAndPasswordValid", priority = 5)
