@@ -19,8 +19,8 @@ import util.MessagesAndLogs;
  *
  */
 public class CreateAccountTest extends BaseTest {
+//	CreateAccountPage accountPage = new CreateAccountPage();
 	CreateAccountRules account = new CreateAccountRules();
-	CreateAccountPage accountPage = new CreateAccountPage();
 
 	@DataProvider(name = "existingUserData")
 	public static Object[][] login01() {
@@ -37,8 +37,17 @@ public class CreateAccountTest extends BaseTest {
 	@Test(dataProvider = "existingUserData", priority = 1)
 	public void existingUser(String email) {
 		account.existingUser(email);
-		assertEquals(account.getValue(By.id("error-message")), MessagesAndLogs.invalidRegistration);
-		loging(MessagesAndLogs.invalidRegistration);
+		assertEquals(account.getValue(By.id("error-message")), MessagesAndLogs.registrationErrorMessage);
+		loging(MessagesAndLogs.accountErrorLog);
+	}
+
+	@Test
+	public void requiredFields() {
+		account.requiredFields();
+		assertEquals(account.getValue(By.id("error-signup-name")), MessagesAndLogs.userNameErrorMessage);
+		assertEquals(account.getValue(By.id("error-signup-email")), MessagesAndLogs.emailErrorMessage);
+		assertEquals(account.getValue(By.id("error-signup-password")), MessagesAndLogs.passwordErrorMessage);
+		loging(MessagesAndLogs.accountErrorLog);
 	}
 
 }
