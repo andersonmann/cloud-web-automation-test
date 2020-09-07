@@ -29,7 +29,7 @@ public class BrowserFactory {
 	 * @param project
 	 * @param build
 	 */
-	public static void createDriver(String browser, String browser_version, String os, String os_version,
+	protected static void createDriver(String browser, String browser_version, String os, String os_version,
 			String resolution, String project, String build) {
 		try {
 			DesiredCapabilities caps = new DesiredCapabilities();
