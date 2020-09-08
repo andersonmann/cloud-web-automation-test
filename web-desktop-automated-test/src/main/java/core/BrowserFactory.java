@@ -45,8 +45,8 @@ public class BrowserFactory {
 			driver = new RemoteWebDriver(new URL(Constants.APPIUM_BS), caps);
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
-			driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			driver.get(url);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
