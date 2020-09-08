@@ -54,7 +54,7 @@ The project structure could be viewed bellow.
 └── pom.xml
 ```
 
-#### core
+### core
 
 **BasePage** is the DSL of project, all the main methods are here and used by anothers classes.
 
@@ -65,7 +65,7 @@ The other classes extend the base page and the test page, which in turn extend t
 
 **Constants** class where are the browserStack credentials.
 
-#### page
+### page
 
 **CreateAccountPage** class where business rules and flows are defined.
 
@@ -73,13 +73,13 @@ The other classes extend the base page and the test page, which in turn extend t
 
 **LoginPage** class where login methods are mapped.
 
-#### rules
+### rules
 
 **CreateAccountRules** class where business rules and flows for creating accounts are defined.
 
 **LoginRules** class where business rules and flows for login are defined.
 
-#### util
+### util
 
 **ExtentManager**
 **ExtentTestManager**
@@ -91,7 +91,7 @@ classes that implement the listeners and reports used in the project.
 
 **MessagesAndLogs** class where the strings are storeged to used on validations and logs for another's classes.
 
-#### test
+### test
 
 **CreateAccountTest** class that contains account creation test methods.
 
@@ -99,7 +99,7 @@ classes that implement the listeners and reports used in the project.
 
 **RecoveryPasswordTest** class that contains recovery password test methods.
 
-#### suite
+### suite
 
 **createAccount.xml** file where parameters for running account creation tests are entered.
 
@@ -108,7 +108,7 @@ classes that implement the listeners and reports used in the project.
 **recoveryPassword.xml** file where parameters for running recovery password tests are entered.
 
 
-#### Screenshots
+### Screenshots
 
 **Failures** folder containing screenshots of failed tests.
 
@@ -118,7 +118,7 @@ classes that implement the listeners and reports used in the project.
 
 **Test-Automation-Report.html** file containing the test execution report.
 
-#### pom.xml
+### pom.xml
 
 dependency manager
 
@@ -152,7 +152,7 @@ page object model
 #### The tests are running at BrowserStack datacenters!!
 ## NOTICE 2: 
 #### The account used is TRIAL and has a usage limit!!
-To run the test suites, you could execute manually the files located at folder src/test/resources/suite.
+To run the test suites, you could execute manually the files located at folder `src/test/resources/suite`.
 You can also run by command line through maven commands.
 
 
@@ -163,7 +163,7 @@ open the terminal.
 ```
 
 ```
-navigate to the pom.xml file folder.
+navigate to the `pom.xml` file folder.
 ```
 
 ```
@@ -206,7 +206,7 @@ Sign in: user: mannautomationtest@gmail.com, password: Zenvia@2020
 ```
 
 ```
-Access the menu: Products/Automate
+Access the option: DASHBOARD
 ```
 
 ```
