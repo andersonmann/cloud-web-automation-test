@@ -10,7 +10,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import core.BaseTest;
-import page.CreateAccountPage;
 import rules.CreateAccountRules;
 import util.MessagesAndLogs;
 
@@ -19,7 +18,6 @@ import util.MessagesAndLogs;
  *
  */
 public class CreateAccountTest extends BaseTest {
-//	CreateAccountPage accountPage = new CreateAccountPage();
 	CreateAccountRules account = new CreateAccountRules();
 
 	@DataProvider(name = "existingUserData")
@@ -28,10 +26,12 @@ public class CreateAccountTest extends BaseTest {
 	}
 
 	@Test(priority = 0)
-	public void createNewUser() {
-		account.createNewAccountFlow();
-		assertEquals(account.getHomeLogin(), MessagesAndLogs.homeLoginUrl);
-		loging(MessagesAndLogs.creatingAccountSuccessMessage);
+	public void requiredFields() {
+		account.requiredFields();
+		assertEquals(account.getValue(By.id("error-signup-name")), MessagesAndLogs.userNameErrorMessage);
+		assertEquals(account.getValue(By.id("error-signup-email")), MessagesAndLogs.emailErrorMessage);
+		assertEquals(account.getValue(By.id("error-signup-password")), MessagesAndLogs.passwordErrorMessage);
+		loging(MessagesAndLogs.accountErrorLog);
 	}
 
 	@Test(dataProvider = "existingUserData", priority = 1)
@@ -41,13 +41,11 @@ public class CreateAccountTest extends BaseTest {
 		loging(MessagesAndLogs.accountErrorLog);
 	}
 
-	@Test
-	public void requiredFields() {
-		account.requiredFields();
-		assertEquals(account.getValue(By.id("error-signup-name")), MessagesAndLogs.userNameErrorMessage);
-		assertEquals(account.getValue(By.id("error-signup-email")), MessagesAndLogs.emailErrorMessage);
-		assertEquals(account.getValue(By.id("error-signup-password")), MessagesAndLogs.passwordErrorMessage);
-		loging(MessagesAndLogs.accountErrorLog);
+	@Test(priority = 2)
+	public void createNewUser() {
+		account.createNewAccountFlow();
+		assertEquals(account.getHomeLogin(), MessagesAndLogs.homeLoginUrl);
+		loging(MessagesAndLogs.creatingAccountSuccessMessage);
 	}
 
 }
