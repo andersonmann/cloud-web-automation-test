@@ -46,12 +46,17 @@ A estrutura do projeto pode ser visualizada abaixo.
 └── src
    └── test
        └── java
-           ├── login
-           │   └── RechargeGooglePlayTest.java
+           ├── test
+           │   └── CreateAccountTest.java
+           │   └── LoginTest.java
+           │   └── RecoveryPasswordTest.java
 └── src
    └── test
        └── resources
-           ├── recarga.xml
+           ├── suite
+           │   └── createAccount.xml
+           │   └── logim.xml
+           │   └── recoveryPassword.xml
 └── screenshots
        └── Failures
        └── Success
