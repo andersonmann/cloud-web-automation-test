@@ -1,23 +1,12 @@
 # cloud-web-automation-test
 
 ## Getting Started
-This code was developed to the technical challenge at the Plataforma Digital Sicredi.(enjoy)
-The tests are executed at real devices on browserStack cloud.
+This code was developed to demonstrate how to run web automation tests in thousands of combinations devices running at cloud.\
+These tests are executed at real devices on browserStack cloud.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing 
-purposes. See deployment for notes on how to deploy the project on a live system.
+## Project structure
 
-### Prerequisites
-
-* Java JRE
-* Java JDK
-* Apache Maven
-* BrowserStack account
-
-
-## Estrutura do projeto
-
-A estrutura do projeto pode ser visualizada abaixo.
+The project structure could be viewed bellow.
 
 ```
 .
@@ -67,42 +56,80 @@ A estrutura do projeto pode ser visualizada abaixo.
 
 #### core
 
-**BasePage** é o DSL do projeto, todos os métodos principais são colocados aqui e distribuídos pelo projeto.
+**BasePage** is the DSL of project, all the main methods are here and used by anothers classes.
 
-**BaseTest** indica todas as ações comuns nas classes de teste. É nessa classe que ele recebe os parâmetros do dispositivo para a criação do driver selenium.
+**BaseTest** it is this class that receives the device parameters for the creation of the selenium driver.
 
-**Constants** todos os dados estáticos e fixos do projeto estão nesta classe.
+**BrowserFactory** is the heart of the project, where the Driver Selenium for the defined system is instantiated.\
+The other classes extend the base page and the test page, which in turn extend the DriverFactory, giving access to the entire project by the driver instantiated here.
 
-**DriverFactory** é o coração do projeto, onde o Driver Selenium para o sistema definido é instanciado.
-As outras classes estendem a página base e a página de teste, que por sua vez estendem a DriverFactory, dando acesso a todo o projeto o driver instanciado aqui.
+**Constants** class where are the browserStack credentials.
 
 #### page
 
-page é o local onde os métodos lógicos de todas as pages são implementados.
+**CreateAccountPage** class where business rules and flows are defined.
+
+**HomePage** class where home page methods are mapped.
+
+**LoginPage** class where login methods are mapped.
+
+#### rules
+
+**CreateAccountRules** class where business rules and flows for creating accounts are defined.
+
+**LoginRules** class where business rules and flows for login are defined.
 
 #### util
 
-classes que implementam os listeners utilizados no projeto.
+**ExtentManager**
+**ExtentTestManager**
+**TestListener**
+
+classes that implement the listeners and reports used in the project.
+
+**DataGenerator** class that generated user and email.
+
+**MessagesAndLogs** class where the strings are storeged to used on validations and logs for another's classes.
 
 #### test
 
-classes que contém os testes de recarga.
+**CreateAccountTest** class that contains account creation test methods.
+
+**LoginTest** class that contains login test methods.
+
+**RecoveryPasswordTest** class that contains recovery password test methods.
 
 #### suite
 
-arquivo onde os parâmetros para a execução dos testes são inseridos.
+**createAccount.xml** file where parameters for running account creation tests are entered.
+
+**login.xml** file where parameters for running login tests are entered.
+
+**recoveryPassword.xml** file where parameters for running recovery password tests are entered.
+
 
 #### Screenshots
 
-pasta contendo os capturas de telas da execução dos testes.
+**Failures** folder containing screenshots of failed tests.
+
+**Success** folder containing screenshots of success tests.
 
 #### TestReport
 
-arquivo contendo o relatório da execução dos testes.
+**Test-Automation-Report.html** file containing the test execution report.
 
 #### pom.xml
 
-gerenciador de dependências e arquivo que é executado e contém todas as suites de testes.
+dependency manager
+
+## Running the tests
+
+# NOTICE 1: 
+#### The tests are running at BrowserStack datacenters!!\
+# NOTICE 2: 
+#### The account used is free and has a usage limit!!\
+To run the suite test, you should execute the file suite.multiplatform.xml, located at folder src/main/resources.
+You can also run by command line through maven commands.
 
 ## Devices
 Are used the following real devices to execute the tests:
@@ -116,13 +143,6 @@ Samsung Galaxy S10
 ```
 
 Are possible use hundreds of devices, you just need change the parameter of single.conf.json file, located at folder src/test/resources.
-
-## Running the tests
-
-NOTICE 1: The tests are running at BrowserStack datacenters!!
-NOTICE 2: The account used is free and has a usage limit!!
-To run the suite test, you should execute the file suite.multiplatform.xml, located at folder src/main/resources.
-You can also run by command line through maven commands.
 
 ### Maven commands
 
