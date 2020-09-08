@@ -39,6 +39,11 @@ public class CreateAccountRules extends BasePage {
 		createNewAccount();
 	}
 
+	/**
+	 * This method try create an account with existing data
+	 * 
+	 * @param email
+	 */
 	public void existingUser(String email) {
 		home.clickCreateAccount();
 		account.insertName();
@@ -47,6 +52,10 @@ public class CreateAccountRules extends BasePage {
 		account.clickCreateAccount();
 	}
 
+	/**
+	 * This method try create an account without the correctly fields
+	 * 
+	 */
 	public void requiredFields() {
 		home.clickCreateAccount();
 		account.clickCreateAccount();
