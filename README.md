@@ -122,27 +122,39 @@ classes that implement the listeners and reports used in the project.
 
 dependency manager
 
+### Design Pattern
+
+The below design patterns are used at this project
+
+```
+DSL
+```
+
+```
+Factory
+```
+
+```
+Singleton
+```
+
+```
+Strategy
+```
+
+```
+page object model
+```
+
 ## Running the tests
 
-# NOTICE 1: 
-#### The tests are running at BrowserStack datacenters!!\
-# NOTICE 2: 
-#### The account used is free and has a usage limit!!\
-To run the suite test, you should execute the file suite.multiplatform.xml, located at folder src/main/resources.
+## NOTICE 1: 
+#### The tests are running at BrowserStack datacenters!!
+## NOTICE 2: 
+#### The account used is TRIAL and has a usage limit!!
+To run the test suites, you could execute manually the files located at folder src/test/resources/suite.
 You can also run by command line through maven commands.
 
-## Devices
-Are used the following real devices to execute the tests:
-
-```
-iPhone XS
-```
-
-```
-Samsung Galaxy S10
-```
-
-Are possible use hundreds of devices, you just need change the parameter of single.conf.json file, located at folder src/test/resources.
 
 ### Maven commands
 
@@ -151,19 +163,11 @@ open the terminal.
 ```
 
 ```
-navigate to root folder of the project.
+navigate to the pom.xml file folder.
 ```
 
 ```
-run the command: mvn clean.
-```
-
-```
-run the command: mvn compile.
-```
-
-```
-run the command: mvn test.
+run the command: mvn clean test.
 ```
 
 ## Accessing the browserStack
@@ -191,18 +195,14 @@ Recorded video.
 Network logs.
 ```
 
-```
-Appium logs.
-```
-
 ### To access all the features, do the following steps.
 
 ```
-Access BrowserStack site: https://www.browserstack.com/.
+Access BrowserStack site: https://automate.browserstack.com/dashboard/v2/.
 ```
 
 ```
-Sign in: user: testesicredi2019@gmail.com, password: woop2019
+Sign in: user: mannautomationtest@gmail.com, password: Zenvia@2020
 ```
 
 ```
@@ -210,43 +210,8 @@ Access the menu: Products/Automate
 ```
 
 ```
-Done, the results of all executions will be displayed.
+The results of all executions will be displayed, you could use filters like: project, user, build.
 ```
-
-### Purpose of the tests
-
-```
-The tests created simulate an finance invest.
-Were explored different types of locators and strategies.
-```
-
-### Design Pattern
-
-The below design patterns are used at this project
-
-```
-DSL
-```
-
-```
-Factory
-```
-
-```
-Singleton
-```
-
-```
-Strategy
-```
-
-```
-page object
-```
-
-## Deployment
-
-You just must execute the suite test (suite.multiplatform.xml).
 
 ## Built With
 
@@ -254,7 +219,6 @@ You just must execute the suite test (suite.multiplatform.xml).
 * [TestNG](https://testng.org/doc/documentation-main.html/) - The automation framework used
 * [MAVEN](https://maven.apache.org/) - Dependency Management
 * [JAVA](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html/) - Programing language
-* [APPIUM](http://appium.io/) - The automation framework to mobile connection
 * [SonarLint](https://www.sonarlint.org/eclipse/) - Lint
 * [BrowserStack](https://www.browserstack.com/) - BrowserStack is a cloud and mobile testing platform.
 
