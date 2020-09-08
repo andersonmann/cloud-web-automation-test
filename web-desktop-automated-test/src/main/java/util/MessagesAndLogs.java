@@ -18,6 +18,10 @@ public class MessagesAndLogs {
 	public static String passwordErrorMessage = "At least 8 digits, lower case letters (a-z), upper case letters (A-Z), numbers (0-9) and special characters (!@#$%&*()/-+=_^?)";
 	public static String accountErrorLog = "correctly fill in the indicated fields";
 
+	public static String homeApp = "Início";
+
+	public static String passwordRecoverrySuccessMessage = "We just sent an email with the details to change your password.";
+
 	public static String emptyPasswordErrorMessage = "Insert your password";
 	public static String loginErrorErrorMessage = "Wrong email or password.";
 	public static String empytFields = "unauthorized access";
