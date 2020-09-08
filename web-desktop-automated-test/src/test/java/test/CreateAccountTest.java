@@ -47,5 +47,4 @@ public class CreateAccountTest extends BaseTest {
 		assertEquals(account.getHomeLogin(), MessagesAndLogs.homeLoginUrl);
 		loging(MessagesAndLogs.creatingAccountSuccessMessage);
 	}
-
 }
