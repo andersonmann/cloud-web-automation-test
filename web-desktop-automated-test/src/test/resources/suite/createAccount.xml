@@ -5,7 +5,7 @@
 		<listener class-name="util.TestListener" />
 	</listeners>
 
-	<test name="Windows 10 - Chrome 84">
+	<test name="Create account - windows 10 - Chrome 84">
 		<parameter name="os" 				value="Windows" />
 		<parameter name="os_version"		value="10" />
 		<parameter name="resolution" 		value="1280x800" />
