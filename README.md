@@ -163,7 +163,7 @@ open the terminal.
 ```
 
 ```
-navigate to the `pom.xml` file folder.
+navigate to the pom.xml file folder.
 ```
 
 ```
