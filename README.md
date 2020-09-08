@@ -65,6 +65,45 @@ A estrutura do projeto pode ser visualizada abaixo.
 └── pom.xml
 ```
 
+#### core
+
+**BasePage** é o DSL do projeto, todos os métodos principais são colocados aqui e distribuídos pelo projeto.
+
+**BaseTest** indica todas as ações comuns nas classes de teste. É nessa classe que ele recebe os parâmetros do dispositivo para a criação do driver selenium.
+
+**Constants** todos os dados estáticos e fixos do projeto estão nesta classe.
+
+**DriverFactory** é o coração do projeto, onde o Driver Selenium para o sistema definido é instanciado.
+As outras classes estendem a página base e a página de teste, que por sua vez estendem a DriverFactory, dando acesso a todo o projeto o driver instanciado aqui.
+
+#### page
+
+page é o local onde os métodos lógicos de todas as pages são implementados.
+
+#### util
+
+classes que implementam os listeners utilizados no projeto.
+
+#### test
+
+classes que contém os testes de recarga.
+
+#### suite
+
+arquivo onde os parâmetros para a execução dos testes são inseridos.
+
+#### Screenshots
+
+pasta contendo os capturas de telas da execução dos testes.
+
+#### TestReport
+
+arquivo contendo o relatório da execução dos testes.
+
+#### pom.xml
+
+gerenciador de dependências e arquivo que é executado e contém todas as suites de testes.
+
 ## Devices
 Are used the following real devices to execute the tests:
 
