@@ -1,0 +1,85 @@
+version: "3"
+services: 
+    pg-tasks:
+        container_name: pg-tasks
+        image: postgres:9.6
+        ports: 
+            - 5433:5432
+        environment: 
+            - POSTGRES_DB=tasks
+            - POSTGRES_PASSWORD=password
+
+    sonarqube:
+        container_name: sonar
+        image: sonarqube:7.9.2-community
+        ports:
+            - "9000:9000"
+        networks:
+            - sonarnet
+        environment:
+            - sonar.jdbc.url=jdbc:postgresql://pg-sonar:5432/sonar
+        depends_on:
+            - pg-sonar
+        volumes:
+            - sonarqube_conf:/opt/sonarqube/conf
+            - sonarqube_data:/opt/sonarqube/data
+            - sonarqube_extensions:/opt/sonarqube/extensions
+            - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+    
+    pg-sonar:
+        container_name: pg-sonar
+        image: postgres:9.6
+        networks:
+            - sonarnet
+        environment:
+            - POSTGRES_USER=sonar
+            - POSTGRES_PASSWORD=sonar
+        volumes:
+            - postgresql:/var/lib/postgresql
+            - postgresql_data:/var/lib/postgresql/data
+
+    selenium-hub:
+        image: selenium/hub:3.141.59-zinc
+        container_name: selenium-hub
+        networks:
+            - seleniumGrid
+        ports:
+            - "4444:4444"
+        
+    chrome:
+        image: selenium/node-chrome:3.141.59-zinc
+        container_name: Chrome-1
+        networks:
+            - seleniumGrid
+        depends_on:
+            - selenium-hub
+        environment:
+            - HUB_HOST=selenium-hub
+            - HUB_PORT=4444
+            - NODE_MAX_INSTANCES=2
+            - NODE_MAX_SESSIONS=2
+        
+    chrome2:
+        image: selenium/node-chrome:3.141.59-zinc
+        container_name: Chrome-2
+        networks:
+            - seleniumGrid
+        depends_on:
+            - selenium-hub
+        environment:
+            - HUB_HOST=selenium-hub
+            - HUB_PORT=4444
+            - NODE_MAX_INSTANCES=2
+            - NODE_MAX_SESSIONS=2
+                            
+networks:
+    sonarnet:
+    seleniumGrid:
+
+volumes:
+    sonarqube_conf:
+    sonarqube_data:
+    sonarqube_extensions:
+    sonarqube_bundled-plugins:
+    postgresql:
+    postgresql_data:

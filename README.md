@@ -238,19 +238,28 @@ Access the option: DASHBOARD
 The results of all executions will be displayed, you could use filters like: project, user, build.
 ```
 
-## Built With
+## Docker hub
+1. Docker image jenkins
+   - [andersonmann/missao-devops-jenkins](https://hub.docker.com/repository/docker/andersonmann/missao-devops-jenkins)
 
-* [SELENIUM WEBDRIVER](http://seleniumwebdriver.org/selenium-webdriver/) - The automation framework used
-* [TestNG](https://testng.org/doc/documentation-main.html/) - The automation framework used
-* [MAVEN](https://maven.apache.org/) - Dependency Management
-* [JAVA](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html/) - Programing language
-* [SonarLint](https://www.sonarlint.org/eclipse/) - Lint
-* [BrowserStack](https://www.browserstack.com/) - BrowserStack is a cloud and mobile testing platform.
-
-
+2. Docker image Sonarqube
+   - [andersonmann/integracao-continua](https://hub.docker.com/repository/docker/andersonmann/integracao-continua)
+     
 ## Versioning
 
 Was used [Sourcetree](https://www.sourcetreeapp.com//) for versioning. 
+
+## Built With
+
+* [SELENIUM WEBDRIVER](http://seleniumwebdriver.org/selenium-webdriver/) - The automation framework used
+* [TestNG](https://testng.org/doc/documentation-main.html/) - The test framework used
+* [MAVEN](https://maven.apache.org/) - Dependency Management
+* [JAVA](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html/) - Programing language
+* [SonarLint](https://www.sonarlint.org/eclipse/) - Linter
+* [BrowserStack](https://www.browserstack.com/) - BrowserStack is a cloud and mobile testing platform.
+* [Jenkins](https://www.jenkins.io/) - Automation server
+* [Docker](https://www.docker.com/) - Virtualization service
+* [Sonarqube](https://www.sonarqube.org/) - Continuous Code Inspection
 
 ## Authors
 
