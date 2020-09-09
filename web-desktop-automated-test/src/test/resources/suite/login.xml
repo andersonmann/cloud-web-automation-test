@@ -79,7 +79,7 @@
 		<parameter name="project" 			value="login - OS X Catalina Safari13.1" />
 		<parameter name="build" 			value="OS X Catalina Safari13.1 resolution 1024x768" />
 		<classes>
-			<class name="test.RecoveryPasswordTest" />
+			<class name="test.LoginTest"/>
 		</classes>
     </test>
 </suite>

@@ -25,18 +25,18 @@ public class LoginTest extends BaseTest {
 		return new Object[][] { { "", "" } };
 	}
 
-	@DataProvider(name = "invalidEmail0")
-	public static Object[][] invalidEmail0() {
-		return new Object[][] { { "dasdasdasdasd", "" } };
-	}
-
 	@DataProvider(name = "invalidEmail1")
 	public static Object[][] invalidEmail1() {
-		return new Object[][] { { "mr.robot@", "Zenvia@2020" } };
+		return new Object[][] { { "dasdasdasdasd", "" } };
 	}
 
 	@DataProvider(name = "invalidEmail2")
 	public static Object[][] invalidEmail2() {
+		return new Object[][] { { "mr.robot@", "Zenvia@2020" } };
+	}
+
+	@DataProvider(name = "invalidEmail3")
+	public static Object[][] invalidEmail3() {
 		return new Object[][] { { "mr.robot@gmail", "Zenvia@2020" } };
 	}
 
@@ -72,7 +72,7 @@ public class LoginTest extends BaseTest {
 		loging(MessagesAndLogs.emailErrorMessage);
 	}
 
-	@Test(dataProvider = "invalidEmail2", priority = 3)
+	@Test(dataProvider = "invalidEmail3", priority = 3)
 	public void invalidEmail3(String email, String password) {
 		login.login(email, password);
 		assertEquals(login.getValue(By.id("error-signin-email")), MessagesAndLogs.emailErrorMessage);
