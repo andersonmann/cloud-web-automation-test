@@ -148,13 +148,38 @@ page object model
 
 ## Running the tests
 
-## NOTICE 1: 
-#### The tests are running at BrowserStack datacenters!!
-## NOTICE 2: 
-#### The account used is TRIAL and has a usage limit!!
-To run the test suites, you could execute manually the files located at folder `src/test/resources/suite`.
+### NOTICE 1: 
+#### The tests will be running at BrowserStack data centers!
+### NOTICE 2: 
+#### The account used is TRIAL and has a usage limit!
+
+To run the suite test, you could execute manually the files located at folder `src/test/resources/suite`.\
 You can also run by command line through maven commands.
 
+## Test parameters
+
+Tests can be performed on various operating systems and versions.\
+To modify the parameters follow the instructions below.
+
+1. The OS to test on
+   - [available operating systems](https://www.browserstack.com/list-of-browsers-and-platforms/automate)
+     - example: `<parameter name="os" value="Windows" />`
+     
+2. Version of the OS to test on
+   - [available operating systems versions](https://www.browserstack.com/list-of-browsers-and-platforms/automate)
+     - example: `<parameter name="os_version" value="10" />`
+         
+3. Browser you want to test on
+   - [available browsers](https://www.browserstack.com/list-of-browsers-and-platforms/automate)
+     - example: `<parameter name="browser" value="Chrome" />`
+     
+4. Browser version you want to test on
+   - [available browsers versions](https://www.browserstack.com/list-of-browsers-and-platforms/automate)
+     - example: `<parameter name="browser_version" value="84" />`
+    
+5. Set the resolution of your VM before beginning your test
+   - [supported resolutions](https://www.browserstack.com/docs/automate/selenium/change-screen-resolution)
+     - ex: `<parameter name="resolution" value="1280x800" />`
 
 ### Maven commands
 
