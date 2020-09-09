@@ -26,8 +26,8 @@ public class BasePage extends BrowserFactory {
 	 */
 	public void waitForElement(By by) {
 		log.getTest().log(Status.INFO, "waiting presence of element: " + by);
-		WebDriverWait wait = new WebDriverWait(driver, 15);
-		wait.until(ExpectedConditions.elementToBeClickable(by));
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
 	}
 
 	/**
