@@ -1,0 +1,14 @@
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/core/BasePage.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/page/HomePage.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/rules/LoginRules.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/util/MessagesAndLogs.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/util/TestListener.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/rules/CreateAccountRules.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/page/CreateAccountPage.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/core/BrowserFactory.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/util/DataGenerator.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/util/ExtentManager.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/core/BaseTest.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/util/ExtentTestManager.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/core/Constants.java
+/home/anderson.mann/git/cloud-web-automation-test/web-desktop-automated-test/src/main/java/page/LoginPage.java

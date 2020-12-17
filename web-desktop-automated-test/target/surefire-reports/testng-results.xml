@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="29" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T16:10:38 BRT" name="Login regression tests" finished-at="2020-12-17T16:27:29 BRT" duration-ms="1010079">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T16:10:38 BRT" name="Login - windows 10 - Chrome 84" finished-at="2020-12-17T16:13:57 BRT" duration-ms="198387">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:10:38 BRT" name="setupDriver" finished-at="2020-12-17T16:10:57 BRT" duration-ms="18682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:10:57 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:11:13 BRT" duration-ms="15359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:14 BRT" name="tearDown" finished-at="2020-12-17T16:11:16 BRT" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:16 BRT" name="setupDriver" finished-at="2020-12-17T16:11:28 BRT" duration-ms="12078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:28 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:11:35 BRT" duration-ms="6367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:37 BRT" name="tearDown" finished-at="2020-12-17T16:11:40 BRT" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:40 BRT" name="setupDriver" finished-at="2020-12-17T16:11:59 BRT" duration-ms="19570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:11:59 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:12:09 BRT" duration-ms="9426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:10 BRT" name="tearDown" finished-at="2020-12-17T16:12:12 BRT" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:12 BRT" name="setupDriver" finished-at="2020-12-17T16:12:26 BRT" duration-ms="14331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:26 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:12:33 BRT" duration-ms="7285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:35 BRT" name="tearDown" finished-at="2020-12-17T16:12:38 BRT" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:38 BRT" name="setupDriver" finished-at="2020-12-17T16:12:54 BRT" duration-ms="16536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:12:54 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:13:03 BRT" duration-ms="9245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:13:05 BRT" name="tearDown" finished-at="2020-12-17T16:13:08 BRT" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:13:08 BRT" name="setupDriver" finished-at="2020-12-17T16:13:23 BRT" duration-ms="15773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 chrome84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 chrome84 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:13:23 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:13:53 BRT" duration-ms="29957" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=84.0.4147.89)
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-78-111-84', ip: '208.78.111.84', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1787}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Windows\proxy\scoped_dir9948_1968941234}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.89, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1ed67c9ab30e1c3df1000949bc54d815
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=84.0.4147.89)
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-78-111-84', ip: '208.78.111.84', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1787}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Windows\proxy\scoped_dir9948_1968941234}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.89, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1ed67c9ab30e1c3df1000949bc54d815
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@409bf450]" started-at="2020-12-17T16:13:54 BRT" name="tearDown" finished-at="2020-12-17T16:13:57 BRT" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - windows 10 - Chrome 84 -->
+    <test started-at="2020-12-17T16:13:57 BRT" name="Login - windows 10 - Firefox 80" finished-at="2020-12-17T16:17:21 BRT" duration-ms="204128">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:13:57 BRT" name="setupDriver" finished-at="2020-12-17T16:14:28 BRT" duration-ms="30432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:14:28 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:14:34 BRT" duration-ms="6464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:14:35 BRT" name="tearDown" finished-at="2020-12-17T16:14:37 BRT" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:14:37 BRT" name="setupDriver" finished-at="2020-12-17T16:14:58 BRT" duration-ms="21469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:14:58 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:15:03 BRT" duration-ms="4701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:04 BRT" name="tearDown" finished-at="2020-12-17T16:15:05 BRT" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:05 BRT" name="setupDriver" finished-at="2020-12-17T16:15:26 BRT" duration-ms="20688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:26 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:15:31 BRT" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:31 BRT" name="tearDown" finished-at="2020-12-17T16:15:34 BRT" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:34 BRT" name="setupDriver" finished-at="2020-12-17T16:15:59 BRT" duration-ms="24994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:15:59 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:16:03 BRT" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:04 BRT" name="tearDown" finished-at="2020-12-17T16:16:07 BRT" duration-ms="2982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:07 BRT" name="setupDriver" finished-at="2020-12-17T16:16:23 BRT" duration-ms="15447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:23 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:16:27 BRT" duration-ms="4653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:28 BRT" name="tearDown" finished-at="2020-12-17T16:16:31 BRT" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:31 BRT" name="setupDriver" finished-at="2020-12-17T16:16:55 BRT" duration-ms="24476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Firefox80 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:16:55 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:17:19 BRT" duration-ms="23812" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8776, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1653c0bcfe7fe1e42580abafbf1...}
+Session ID: 1653c0bcfe7fe1e42580abafbf197b8a3deaac83
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8776, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1653c0bcfe7fe1e42580abafbf1...}
+Session ID: 1653c0bcfe7fe1e42580abafbf197b8a3deaac83
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@639c2c1d]" started-at="2020-12-17T16:17:20 BRT" name="tearDown" finished-at="2020-12-17T16:17:21 BRT" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - windows 10 - Firefox 80 -->
+    <test started-at="2020-12-17T16:17:21 BRT" name="Login - windows 10 - Edge 85" finished-at="2020-12-17T16:20:47 BRT" duration-ms="205133">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:17:21 BRT" name="setupDriver" finished-at="2020-12-17T16:17:58 BRT" duration-ms="36982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:17:58 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:18:06 BRT" duration-ms="7242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:18:07 BRT" name="tearDown" finished-at="2020-12-17T16:18:08 BRT" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:18:08 BRT" name="setupDriver" finished-at="2020-12-17T16:18:44 BRT" duration-ms="36723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:18:44 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:18:51 BRT" duration-ms="6992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:18:52 BRT" name="tearDown" finished-at="2020-12-17T16:18:53 BRT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:18:53 BRT" name="setupDriver" finished-at="2020-12-17T16:19:17 BRT" duration-ms="24066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:17 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:19:24 BRT" duration-ms="6748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:25 BRT" name="tearDown" finished-at="2020-12-17T16:19:26 BRT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:26 BRT" name="setupDriver" finished-at="2020-12-17T16:19:36 BRT" duration-ms="10770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:36 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:19:41 BRT" duration-ms="4599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:42 BRT" name="tearDown" finished-at="2020-12-17T16:19:42 BRT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:19:42 BRT" name="setupDriver" finished-at="2020-12-17T16:20:00 BRT" duration-ms="17488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:20:00 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:20:06 BRT" duration-ms="5590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:20:07 BRT" name="tearDown" finished-at="2020-12-17T16:20:07 BRT" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:20:07 BRT" name="setupDriver" finished-at="2020-12-17T16:20:19 BRT" duration-ms="11461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1280x800]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - win10 Edge85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[win10 Edge85 resolution 1280x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:20:19 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:20:45 BRT" duration-ms="26312" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: MicrosoftEdge=85.0.564.41)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '199-7-165-23', ip: '199.7.165.23', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: MicrosoftEdge=85.0.564.41)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '199-7-165-23', ip: '199.7.165.23', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2d3379b4]" started-at="2020-12-17T16:20:46 BRT" name="tearDown" finished-at="2020-12-17T16:20:47 BRT" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - windows 10 - Edge 85 -->
+    <test started-at="2020-12-17T16:20:47 BRT" name="Login - OS X Catalina - Firefox 80" finished-at="2020-12-17T16:23:26 BRT" duration-ms="159468">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:20:47 BRT" name="setupDriver" finished-at="2020-12-17T16:21:02 BRT" duration-ms="15583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:02 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:21:07 BRT" duration-ms="4324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:07 BRT" name="tearDown" finished-at="2020-12-17T16:21:08 BRT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:08 BRT" name="setupDriver" finished-at="2020-12-17T16:21:22 BRT" duration-ms="13768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:22 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:21:26 BRT" duration-ms="3755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:26 BRT" name="tearDown" finished-at="2020-12-17T16:21:29 BRT" duration-ms="2610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:29 BRT" name="setupDriver" finished-at="2020-12-17T16:21:41 BRT" duration-ms="11754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:41 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:21:45 BRT" duration-ms="4005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:46 BRT" name="tearDown" finished-at="2020-12-17T16:21:46 BRT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:21:46 BRT" name="setupDriver" finished-at="2020-12-17T16:22:08 BRT" duration-ms="21311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:08 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:22:13 BRT" duration-ms="5248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:14 BRT" name="tearDown" finished-at="2020-12-17T16:22:15 BRT" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:15 BRT" name="setupDriver" finished-at="2020-12-17T16:22:36 BRT" duration-ms="21006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:36 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:22:40 BRT" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:41 BRT" name="tearDown" finished-at="2020-12-17T16:22:42 BRT" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:22:42 BRT" name="setupDriver" finished-at="2020-12-17T16:23:00 BRT" duration-ms="18288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Firefox80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Firefox80 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:23:00 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:23:25 BRT" duration-ms="24365" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 41894, moz:profile: /var/folders/3y/zz_w6_s56sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: a7934c1df2e5d87485e87fc8a37...}
+Session ID: a7934c1df2e5d87485e87fc8a37edc1c5c467b2a
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 41894, moz:profile: /var/folders/3y/zz_w6_s56sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: a7934c1df2e5d87485e87fc8a37...}
+Session ID: a7934c1df2e5d87485e87fc8a37edc1c5c467b2a
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@411f53a0]" started-at="2020-12-17T16:23:25 BRT" name="tearDown" finished-at="2020-12-17T16:23:26 BRT" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - OS X Catalina - Firefox 80 -->
+    <test started-at="2020-12-17T16:23:26 BRT" name="Login - OS X Catalina - Chrome 85" finished-at="2020-12-17T16:25:28 BRT" duration-ms="121816">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:23:26 BRT" name="setupDriver" finished-at="2020-12-17T16:23:49 BRT" duration-ms="22963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:23:49 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:23:53 BRT" duration-ms="4240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:23:55 BRT" name="tearDown" finished-at="2020-12-17T16:23:55 BRT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:23:55 BRT" name="setupDriver" finished-at="2020-12-17T16:24:01 BRT" duration-ms="6243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:01 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:24:05 BRT" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:07 BRT" name="tearDown" finished-at="2020-12-17T16:24:07 BRT" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:07 BRT" name="setupDriver" finished-at="2020-12-17T16:24:16 BRT" duration-ms="8467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:16 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:24:20 BRT" duration-ms="4792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:22 BRT" name="tearDown" finished-at="2020-12-17T16:24:22 BRT" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:22 BRT" name="setupDriver" finished-at="2020-12-17T16:24:30 BRT" duration-ms="8173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:30 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:24:34 BRT" duration-ms="4125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:36 BRT" name="tearDown" finished-at="2020-12-17T16:24:36 BRT" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:36 BRT" name="setupDriver" finished-at="2020-12-17T16:24:46 BRT" duration-ms="9667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:46 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:24:50 BRT" duration-ms="4443" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Wrong email or password.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Wrong email or password.] but found []
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at test.LoginTest.invalidPassword(LoginTest.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:51 BRT" name="tearDown" finished-at="2020-12-17T16:24:52 BRT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:24:52 BRT" name="setupDriver" finished-at="2020-12-17T16:25:02 BRT" duration-ms="9706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Chrome85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Chrome85 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:25:02 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:25:26 BRT" duration-ms="24779" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=85.0.4183.83)
+  (Driver info: chromedriver=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}),platform=Mac OS X 10.15.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-208-52-145-214.browserstack.com', ip: '208.52.145.214', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62112}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.tNrLEv}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 95fc96520efee92b0a2e555c8bdbb6f2
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=85.0.4183.83)
+  (Driver info: chromedriver=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}),platform=Mac OS X 10.15.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-208-52-145-214.browserstack.com', ip: '208.52.145.214', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62112}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.tNrLEv}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 95fc96520efee92b0a2e555c8bdbb6f2
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@62379589]" started-at="2020-12-17T16:25:28 BRT" name="tearDown" finished-at="2020-12-17T16:25:28 BRT" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - OS X Catalina - Chrome 85 -->
+    <test started-at="2020-12-17T16:25:28 BRT" name="Login - OS X Catalina - Safari 13.1" finished-at="2020-12-17T16:27:29 BRT" duration-ms="120385">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:25:28 BRT" name="setupDriver" finished-at="2020-12-17T16:25:46 BRT" duration-ms="18305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="requiredFields(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:25:46 BRT" name="requiredFields" data-provider="requiredFields" finished-at="2020-12-17T16:25:49 BRT" duration-ms="2463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:25:50 BRT" name="tearDown" finished-at="2020-12-17T16:25:50 BRT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:25:50 BRT" name="setupDriver" finished-at="2020-12-17T16:26:03 BRT" duration-ms="12703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail1(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:03 BRT" name="invalidEmail1" data-provider="invalidEmail1" finished-at="2020-12-17T16:26:05 BRT" duration-ms="2333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdasdasd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:06 BRT" name="tearDown" finished-at="2020-12-17T16:26:06 BRT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:06 BRT" name="setupDriver" finished-at="2020-12-17T16:26:28 BRT" duration-ms="22136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail2(java.lang.String, java.lang.String)[pri:2, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:28 BRT" name="invalidEmail2" data-provider="invalidEmail2" finished-at="2020-12-17T16:26:30 BRT" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:31 BRT" name="tearDown" finished-at="2020-12-17T16:26:31 BRT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:31 BRT" name="setupDriver" finished-at="2020-12-17T16:26:43 BRT" duration-ms="12178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail3(java.lang.String, java.lang.String)[pri:3, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:43 BRT" name="invalidEmail3" data-provider="invalidEmail3" finished-at="2020-12-17T16:26:45 BRT" duration-ms="2042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:46 BRT" name="tearDown" finished-at="2020-12-17T16:26:46 BRT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:26:46 BRT" name="setupDriver" finished-at="2020-12-17T16:27:08 BRT" duration-ms="21309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:4, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:27:08 BRT" name="invalidPassword" data-provider="invalidPassword" finished-at="2020-12-17T16:27:10 BRT" duration-ms="2021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:27:11 BRT" name="tearDown" finished-at="2020-12-17T16:27:11 BRT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:27:11 BRT" name="setupDriver" finished-at="2020-12-17T16:27:25 BRT" duration-ms="14105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1024x768]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[login - OS X Catalina Safari13.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OS X Catalina Safari13.1 resolution 1024x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginSuccessfully(java.lang.String, java.lang.String)[pri:5, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:27:25 BRT" name="loginSuccessfully" data-provider="userAndPasswordValid" finished-at="2020-12-17T16:27:28 BRT" duration-ms="2970" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr.robot@robots.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenvia@2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element not found: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G2021, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 3fdf8a6accdcd11d693ab98a6ba..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 3fdf8a6accdcd11d693ab98a6ba67aa680bc685d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element not found: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G2021, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 3fdf8a6accdcd11d693ab98a6ba..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 3fdf8a6accdcd11d693ab98a6ba67aa680bc685d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+at core.BasePage.getValue(BasePage.java:81)
+at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@1d296da]" started-at="2020-12-17T16:27:28 BRT" name="tearDown" finished-at="2020-12-17T16:27:29 BRT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login - OS X Catalina - Safari 13.1 -->
+  </suite> <!-- Login regression tests -->
+</testng-results>

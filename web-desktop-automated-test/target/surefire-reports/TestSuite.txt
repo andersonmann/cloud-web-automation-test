@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 1,010.57 s <<< FAILURE! - in TestSuite
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 30.794 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=84.0.4147.89)
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-78-111-84', ip: '208.78.111.84', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1787}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Windows\proxy\scoped_dir9948_1968941234}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.89, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1ed67c9ab30e1c3df1000949bc54d815
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 24.583 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8776, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1653c0bcfe7fe1e42580abafbf1...}
+Session ID: 1653c0bcfe7fe1e42580abafbf197b8a3deaac83
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 27.376 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: MicrosoftEdge=85.0.564.41)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '199-7-165-23', ip: '199.7.165.23', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 25.271 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: Unable to locate element: //span[contains(text(),'Início')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 41894, moz:profile: /var/folders/3y/zz_w6_s56sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: a7934c1df2e5d87485e87fc8a37...}
+Session ID: a7934c1df2e5d87485e87fc8a37edc1c5c467b2a
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
+test.LoginTest.invalidPassword[mr.robot@robot.com, abcde12345](1)  Time elapsed: 5.674 s  <<< FAILURE!
+java.lang.AssertionError: expected [Wrong email or password.] but found []
+	at test.LoginTest.invalidPassword(LoginTest.java:85)
+
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 25.921 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Início')]"}
+  (Session info: chrome=85.0.4183.83)
+  (Driver info: chromedriver=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}),platform=Mac OS X 10.15.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-208-52-145-214.browserstack.com', ip: '208.52.145.214', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62112}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-refs/branch-heads/4183@{#779}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.tNrLEv}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 95fc96520efee92b0a2e555c8bdbb6f2
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
+test.LoginTest.loginSuccessfully[mr.robot@robots.com, Zenvia@2020](1)  Time elapsed: 3.379 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element not found: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G2021, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 3fdf8a6accdcd11d693ab98a6ba..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 3fdf8a6accdcd11d693ab98a6ba67aa680bc685d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Início')]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'zenvia-001965', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-58-generic', java.version: '11.0.9.1'
+Driver info: driver.version: unknown
+	at test.LoginTest.loginSuccessfully(LoginTest.java:92)
+
